@@ -1,0 +1,44 @@
+{
+  "name": "vue-jsdiff",
+  "version": "1.0.0",
+  "description": "A javascript text differencing implementation with vue",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "diff",
+    "vue",
+    "javascript"
+  ],
+  "author": "YouXam",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouXam/vuet-diff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YouXam/vue-jsdiff/issues"
+  },
+  "homepage": "https://github.com/YouXam/vue-jsdiff#readme",
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
